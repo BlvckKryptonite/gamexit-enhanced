@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game-Xit | Get in Touch</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/e0a2ecfe2f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="assets/images/game-xit-logo.png" alt="Game-Xit logo" class="logo-img" />
+        </a>
+      </h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <main class="contact-section">
+    <div class="contact-overlay">
+      <div class="container">
+        <h2>Let's Talk<i class="fa-solid fa-comments"></i></h2>
+        <p>Please fill out the form below if you or someone you care about is struggling with video game overuse. We’re here to listen and guide you toward a more balanced digital life.</p>
+
+        <form class="contact-form" action="https://formdump.codeinstitute.net" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" min="0" required />
+        
+          <label for="sex">Sex</label>
+          <select id="sex" name="sex" required>
+            <option value="">-- Please choose an option --</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+          </select>
+        
+          <label for="gaming-time">Average Daily Gaming Time</label>
+          <select id="gaming-time" name="gaming-time" required>
+            <option value="">-- Please choose an option --</option>
+            <option value="1-3">1 - 3 hrs</option>
+            <option value="3-6">3 - 6 hrs</option>
+            <option value="6+">&gt; 6 hrs</option>
+          </select>
+        
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+
+        <!-- Google Map -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0191483729365!2d-122.4206796846798!3d37.77492977975914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c2f977e3b%3A0x4f0b8c9d7c21d334!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1615855277407!5m2!1sen!2sus"
+            width="100%"
+            height="300"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer: Basic copyright -->
+  <footer class="site-footer">
+    <ul id="social-networks">
+      <li>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Facebook page (opens in a new tab)"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.x.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our X/Twitter page (opens in a new tab)"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our YouTube channel (opens in a new tab)"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener"
+          aria-label="visit our Instagram page (opens in a new tab)"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+    <div class="container">
+      <p>&copy; 2025 Game-Xit. All rights reserved.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
